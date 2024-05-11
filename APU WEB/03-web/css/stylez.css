@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*Cuerpo de la Pagina*/
+body{
+  background-image:url("../img/imagenfondo.jpg");
+}
+section{
+  padding: 15px;
+  margin: 5%;
+
+}
+header{
+  width: 100%;
+  height: 100%;
+  /**quite el color para que quede igual que los ejemplos de la consigna del tp*/
+  /**background: rgb(197, 82, 82);*/ 
+}
+/*LOGO DE LAS 4 PAGINA*/
+.logounju img{
+  width: 21%;
+  height: 100px;
+}
+
+/*Pagina Principal*/
+.article1, .article2{
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  border:solid 3px rgb(35, 118, 151);
+  font-size: 20px;
+  color: #ccc;
+}
+
+.article1 img{
+  width: 45%;
+  height: 20%;
+}
+.article2 img{
+  width: 45%;
+  height: 50%;
+}
+h2{
+  color: rgb(30, 207, 207);
+}
+/*Menu de la pagina*/
+nav{
+  width: 45%;
+  height: 70px;
+  float: left;
+  text-align: left;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+nav ul li{
+  display: inline;
+
+}
+nav ul li a {
+  width: 21%;
+  color: rgb(14, 12, 12);
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 60px;
+  background: brown;
+  padding: 1%;
+}
+nav ul li a:hover{
+  background:#ccc;
+}
+/*Formulario de la pagina Registrese*/
+input[type=text],[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit]{
+    width: 80%;
+    background-color: #ceac7a;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  label{
+      font-size: 25px;
+  }
+
+  fieldset{
+      width: 60%;
+      
+  }
+  fieldset h5{
+    font-size: 20px;
+  }
+  legend{
+      font-size: 30px;
+      color: rgb(30, 207, 207);
+      
+  }
+  form{
+    border-radius: 6px;
+    background-color: #998686;
+    padding: 20px;
+    width: 94%;
+    display: block;
+  }
+  
+  /*PIE DE PAGINA*/
+  footer{
+    background: rgb(211, 112, 112);
+    text-align: center;
+  }
+  footer h2{
+    color: rgb(20, 10, 10);
+  }
+ 
+/*PAGINA GALERIA*/
+.contenido{
+  margin-top: 90px;
+}
+.contenido p{
+  font-size: 30px;
+  color: aliceblue;
+}
+.contenido img{
+  width:700px;
+  height: 395px;
+}
+#animacion {
+	width:700px;/*ancho*/
+	overflow:hidden;/*El contenido es recortado y no se muestran barras de posici�n*/
+	margin:auto;/*tama�o de margen*/
+}
+#animacion ul {
+	list-style:none;
+	width:2800px;/*ancho*/
+	display:flex;
+	animation: slide 10s infinite alternate; /*tiempo en que va a rotar*/
+}
+@keyframes slide {
+	0% {margin-left:0px; }
+	20% {margin-left:0px; }
+	
+	25% {margin-left:-700px; }
+	45% {margin-left:-700px; }
+	
+	50% {margin-left:-1400px; }
+	70% {margin-left:-1400px; }	
+	
+	75% {margin-left:-2100px; }
+	100% {margin-left:-2100px; }
+}
+/*PAGINA DE NOSOTROS*/
+.contenido_nosotros h1{
+  color:rgb(30, 207, 207);
+  font-size: 30px;
+}
+.contenido_nosotros p{
+  font-size: 20px;
+  color: rgb(228, 227, 227);
+}
+.titulofacu{
+  text-align: center;
+}

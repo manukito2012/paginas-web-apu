@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>WEB voluntariado</title> <!-- Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. -->
+<link rel="stylesheet" href="css/estilos.css" ><!-- enlaza el documento html con el archivo estilos.css-->
+<link rel="stylesheet" href="css/font.css" > <!-- enlaza el documento html con el archivo font.css -->
+</head>
+<body><!--Aqui empieza cuerpo de página  -->	
+       <div id=contenedor>
+            <header >
+                
+                <img src="img/fondo3.jpg" width=1322px height=200px><!-- Se indica el ancho, la altura a cada imagen -->
+            </header> 
+            <nav >
+                   <div class="barra2">
+							<form>
+				 		    <label for="gsearch">Search Google:</label>
+				 		    <input type="search" id="gsearch" name="gsearch">
+							</form>
+			
+			        </div>     
+                 <ul id=boton><!-- lista desordenada  para el menú de opciones -->
+                   <li><a href="index.html">Home</a></li><!--representa a un ítem en una lista -->
+                   <li><a href="adopciones.html">Adopciones</a></li><!--representa a un ítem en una lista -->
+                   <li><a href="veterinarias.html">Veterinarias</a></li><!--representa a un ítem en una lista -->
+                   <li><a href="voluntariado.html"> Voluntariado</a></li> <!--representa a un ítem en una lista -->
+                 
+                 </ul>
+            </nav>
+             <!-- FORMULARIO DE REGISTRO PARA EL VOLUNTARIO -->
+            <section id=contenido><!-- Sección del contenido para las noticias que se mostrara  -->          
+                      	<h2>Unete a nosotros</h2>
+				<br/>
+				<table>
+					<tr>
+						<tr><th colspan=2><h3>FORMULARIO</h3></th>
+	    					
+							</TR>
+							<TR>
+							<td>
+	    					<form >
+	    					<!-- input indica el tipo de control de que se trata. -->
+					        <!-- el input type email, controla para que cuando el dato sea ingresado me pida un formato valido -->
+					        <!-- placeholder permite mostrar en los controles de texto un texto que desaparece al escribir en el control-->
+					        <!-- required para que los datos al ingresar sean obligatorios -->
+							Nombre:<input type="text" placeholder="ingrese su nombre" name="nombre" required /><br/><br/>
+							Apellido:<input type="text" placeholder="ingrese su apellido" name="apellido" required /><br/></br>
+							D.N.I:<input type="text" placeholder="ingres su D.N.I" name="dni" required /><br/><br/>
+							Email:<input type="email" placeholder="ingres su email" name="email" required /><br/><br/>		    
+							<input type="submit" value="Enviar mensaje" />
+							</form>	
+	    				
+	    				</td> 
+							<TD>
+							<form>
+							Fecha Nacimiento:<input type="date" placeholder="ingrese su nombre" name="nombre" required/><br/><br/>
+						
+							<table>
+							<tr>
+							<tr><th ROWSPAN=2>Sexo:</th>
+	    					<td><input type="radio" name="sexo" value="1">Masculino</TD> 
+							</tr>
+							<tr><TD><input type="radio" name="sexo" value="2">Femenino</td>
+						</tr>
+						</table>					    
+				</form>	
+						</TD>
+					</tr>
+				</table>   
+				 <div class="red">
+                               <a href="https://www.facebook.com/" class="icon icon-facebook2" target="_blank"></a>
+                               <a href="https://twitter.com/explore" class="icon icon-twitter" target="_blank"></a>
+                               <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+                               <a href="https://www.instagram.com/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+                          </div>      
+            </section>
+            
+            <aside>
+                    <div id="animacion">     
+                         <ul>
+                            <li><img src="img/veter1.jpg"></li><!-- imagen de la publicidad-->
+                            <li><img src="img/veter2.jpeg"></li><!-- imagen de la publicidad-->
+                            <li><img src="img/veter3.jpg"></li><!-- imagen de la publicidad-->
+                          </ul>
+                    </div>
+            </aside>
+            
+             <footer><!-- pie de una sección, usualmente contiene un mensaje o direcciones para dar información. -->
+                     <h2>Otero 196, San Salvador de Jujuy, Jujuy Veterinaria UN RINCON NATURAL</h2><!-- representa en este caso para direccion -->
+             </footer>  
+            </div>
+
+</body>
+</html>

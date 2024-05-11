@@ -1,0 +1,119 @@
+/*sacar el margen de todos los elementos*/
+*{
+	margin:0px;
+	padding:0px;
+}
+/*representa el contenido principal de un documento HTML*/
+body{
+	background:#999999;/*color de fondo*/
+	color:#ffffff;/*color de fuente*/
+}
+#contenedor{
+	width:1060px;/*ancho*/
+	margin-top:20px;/*tamaño de margen superior*/
+	margin-bottom:20px;/*tamaño de margen inferior*/
+	padding:10px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+header{
+	height:130px;/*altura*/
+	background:blue;/*color de fondo*/
+}
+header h1{
+	font-size:50px;/*tamaño de fuente*/
+	text-align:center;/*alineacion del texto centrado*/
+	line-heigth:150px;
+}
+nav{
+	height:50px;/*altura*/
+	background:#00FFFF;/*color de fondo*/
+}
+#buton{
+	padding:0px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+#buton li {
+	display:inline;
+	padding:10px;
+}
+#buton li a {
+	height:30px;/*altura*/
+}
+#contenido{
+	width:800px;/*ancho*/
+	height:500px;/*altura*/
+	background:#48D1CC;/*color de fondo*/
+	float:left;/*posicionar flote a la izquierda*/
+	margin-top:10px;/*tamaño de margen superior*/
+	margin-bottom:10px;/*tamaño de margen inferior*/
+}
+#img1{
+	width:230px;/*ancho*/
+	height:380px;/*altura*/
+	padding:9px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+	margin:5px;
+	margin-top:10px;/*tamaño de margen superior*/
+	margin-bottom:15px;/*tamaño de margen inferior*/
+	border:solid 2px blue;/*tamaño y color del borde*/
+}
+section h2{
+	height:30px;/*altura*/
+	background:blue;/*color de fondo*/
+}
+div{
+	padding:0px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+	margin-top:10px;/*tamaño de margen superior*/
+	margin-bottom:10px;/*tamaño de margen inferior*/
+	widht :150px;/*ancho*/
+	height:150px;/*altura*/
+	display:inline-block;
+} 
+
+aside{
+	width:255px;/*ancho*/
+	height:500px;/*altura*/
+	background:#00FA9A;/*color de fondo*/
+	float:right;/*posicionar flote a la derecha*/
+	margin-top:10px;/*tamaño de margen superior*/
+}
+footer{
+	background:blue;/*color de fondo*/
+	height:40px;/*altura*/
+	clear:both;
+}
+footer h2{
+	font-size:10px;/*tamaño de fuente*/
+	text-align:center;/*alineacion del texto centrado*/
+	padding:20px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+
+article{
+	width:700px;/*ancho*/
+	height:250px;/*altura*/
+}
+article img {
+	height:200px;/*altura*/
+	float : left;/*posicionar flote a la izquierda*/
+	padding:19px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+article p {
+	padding-top:29px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+table{
+	color:black;/*color de fuente*/
+	text-align:right;
+	width:500px;/*ancho*/
+}
+td , th {
+	border: solid 1px black;/*tamaño y color del borde*/
+	padding:10px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+thead{
+	background-color:#246355;
+	color:white;/*color de fuente*/
+}
+tr:hover td{
+	background-color:#369681;
+	color:white;/*color de fuente*/
+}
+#imgg{
+	float:left;/*posicionar flote a la izquierda*/
+}

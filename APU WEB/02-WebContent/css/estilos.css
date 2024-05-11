@@ -1,0 +1,231 @@
+ /*sacar el margen de todos los elementos*/
+*{
+	margin:0px;
+	padding:0px;
+}
+/*representa el contenido principal de un documento HTML*/
+body {
+	background-image:url("../img/fondo1.jpg");/* imagen de fondo del cuerpo */
+}
+#contenedor{
+	margin-top:20px;/*tamaño de margen superior*/
+	margin-bottom:20px;//*tamaño de margen inferior*/
+	padding:10px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+header{
+	height:200px;/*altura*/
+}
+nav {
+	height:50px;/*altura*/
+	background:#2175bc;/*color de fondo*/
+}
+.barra2{
+	float:right;/*posicionar flote a la derecha*/
+}
+
+#boton li{
+	display:table-cell; /*puestos en bloque*/
+	padding:0px;/*establecer de forma abreviada el mismo valor a todas las zonas */
+}
+#boton li a {
+	 width:130px;/*ancho*/
+	 font-family:arial;/*Define la familia tipográfica*/
+     font-size:20px; /*tamaño de fuente*/
+     text-decoration:none; 
+     float:left;/*posicionar flote a la izquierda*/
+     padding:16px;/*el mismo valor a todas las zonas*/
+     background-color:#2175bc;
+     color:#fff; /*color de fuente*/
+}
+#boton li a:hover {
+	 background-color:red;
+	 margin-top:-5;/*margen superior*/
+	 padding-bottom:15px;/*margen inferior*/
+}
+
+#contenido{
+	 height:500px;/*altura*/
+	 background-image:url("../img/fondo1.jpg");/*imagen de fondo*/
+	 margin-top:0px;/*margen superior*/
+	 margin-bottom:0px;/*margen inferior*/
+}
+
+article{
+	 background-image:url("../img/fondo5.jpg");/*imagen de fondo*/
+	 width:1200px;/*ancho*/
+	 height:250px;/*altura*/
+	 border:solid 5px blue;/*tamaño y color del borde*/
+	 height:230px;
+	 margin-top:15px;/*margen superior*/
+	 margin-bottom:15px;/*margen inferior*/
+}
+
+article img {
+	padding:3px;/*el mismo valor a todas las zonas*/
+	float:left;/*posicionar flote a la izquierda*/
+		
+}
+article p {
+	padding-top:25px; 
+	font-family:Algerian,arial,Courier;/*Define la familia tipográfica*/
+	font-size:24px;/*tamaño de fuente*/
+	margin-bottom:0px;/*margen inferior*/
+}
+
+.red{
+	position:fixed;
+	right:0;
+	top:35%;
+	font-size:1.5rem;/*tamaño de fuente*/
+	display:flex;
+	flex-direction:column;
+	align-items: flex-end;
+	z-index:100; 
+}
+
+.icon{
+	color:white;/*color de fuente*/
+	text-decoration:none;
+	padding: .7rem;
+	display:flex;
+	transition:all .5s; 
+}
+
+.icon-facebook2{
+	background:#2E406E;/*color de fondo*/
+}
+.icon-twitter{
+	background:#339DC5;/*color de fondo*/
+}
+.icon-youtube{
+	background:#E83028;/*color de fondo*/
+}
+.icon-instagram{
+	background:#3F60A5;/*color de fondo*/
+	
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;/* redondea las esquinas.*/
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;/* redondea las esquinas.*/
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem; /* redondea las esquinas.*/
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);/*añade efecto de sombra alrededor del marco de cada imagen*/
+}
+
+
+aside{
+	border:solid 3px #2175bc;/*tamaño y color del borde*/
+	height:150px;/* altura*/
+	
+	margin-top:0px;/*margen superior*/
+    margin-bottom:0px;/*margen inferior*/
+}
+aside img {
+	width:700px;/*ancho*/
+	height:148px;/*altura*/
+	
+}
+#img1{
+	float:left;/*posicionar flote a la izquierda*/
+	width:260px;/*ancho*/
+	height:110px;/*altura*/
+	padding:5px;/*el mismo valor a todas las zonas*/
+	margin:30px;/*tamaño de margen*/
+
+}
+#contenido h2{
+	text-align:center;/*alineacion del texto centrado*/
+	font-size: 40px;/*tamaño de fuente*/
+	
+}
+#probar{
+	width:230px;/*ancho*/
+	height:100px;/*altura*/
+	
+	}
+#img{
+	
+}
+#img1 img{
+	align:right;
+}
+
+
+table{
+	color:black;/*color de fuente*/
+	text-align:right;/*alineacion del texto derech*/
+	width:500px;/*ancho*/
+	padding:15px;/*el mismo valor a todas las zonas*/
+	
+}
+td , th {
+	border: solid 1px black;/*tamaño y color del borde*/
+	padding:10px;/*el mismo valor a todas las zonas*/
+}
+thead{
+	background-color:#246355;
+	color:white;/*color de fuente*/
+}
+th h3 {
+	float:left;
+	background-color:#369681;
+}
+
+tr:hover td{
+	background-color:#369681;
+	color:white;/*color de fuente*/
+}
+
+
+#animacion {
+	width:700px;/*ancho*/
+	overflow:hidden;/*El contenido es recortado y no se muestran barras de posición*/
+	margin:auto;/*tamaño de margen*/
+}
+#animacion ul {
+	list-style:none;
+	width:2800px;/*ancho*/
+	display:flex;
+	animation: slide 13s infinite alternate; /*tiempo en que va a rotar*/
+}
+@keyframes slide {
+	0% {margin-left:0px; }
+	20% {margin-left:0px; }
+	
+	25% {margin-left:-700px; }
+	45% {margin-left:-700px; }
+	
+	50% {margin-left:-1400px; }
+	70% {margin-left:-1400px; }	
+	
+	75% {margin-left:-2100px; }
+	100% {margin-left:-2100px; }
+}
+
+
+.cuerpo{
+  padding: 1em;
+  border: 10px solid #3366ff;/*tamaño y color del borde*/
+  border-radius: 1em;/* redondea las esquinas.*/
+}
+
+
+footer{
+	
+	height:30px;/*altura*/
+	clear:both;/**posicionar en forma seguida para romper el flotante*/
+	
+}
+footer h2 {
+	text-align: center;/*alineacion del texto centrado*/
+	background:#2175bc;/*color de fondo*/
+}
+
+
